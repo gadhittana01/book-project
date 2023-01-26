@@ -8,4 +8,9 @@ To run the service on your local machine, you must have these components install
 # Getting started
 - To run this project you can use this command below in the root of the repository:
 ```sh
-$ make run-http-server-local
+// install the dependency
+$ go get 
+
+// start the http server
+$ make run-http-server-local 
+```
