@@ -1,0 +1,10 @@
+http:
+  port: 8000
+bookservice:
+  address: "https://openlibrary.org"
+httpclientconfig:
+  timeoutms: 4000
+  maxidleconns: 32
+  maxidleconnsperhost: 32
+  maxconnsperhost: 32
+  idleconntimeoutsec: 90
